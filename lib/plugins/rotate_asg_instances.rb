@@ -1,6 +1,11 @@
 # frozen_string_literal: true
 
-require 'aws-sdk'
+require 'aws-sdk-cloudformation'
+require 'aws-sdk-codedeploy'
+require 'aws-sdk-ec2'
+require 'aws-sdk-iam'
+require 'aws-sdk-autoscaling'
+require 'aws-sdk-s3'
 
 module Moonshot
   module Plugins
